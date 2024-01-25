@@ -5,6 +5,9 @@
 	<title>Document</title>
 </head>
 <body>
-	{{ content | safe }}
+	<header>{% include 'header.html' %}</header>
+	<main>
+		{{ content }}
+	</main>
 </body>
 </html>
