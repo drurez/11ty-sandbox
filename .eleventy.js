@@ -2,9 +2,8 @@
 
 	// Aliases are in relation to the _includes folder
 		eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
-		// eleventyConfig.addLayoutAlias('footer', 'partials/footer.html');
-		// eleventyConfig.addLayoutAlias('header', 'partials/header.html');
 
+		eleventyConfig.addPassthroughCopy("./src/assets/style.css");
 
 	return {
 		dir: { 
