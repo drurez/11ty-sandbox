@@ -4,8 +4,8 @@
 	eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
 		
 	// ignore source assets (processing and watching)
-	eleventyConfig.ignores.add("./src/assets/**/*");
-  eleventyConfig.watchIgnores.add("./src/assets/**/*");
+	eleventyConfig.ignores.add("src/assets/**/*");
+  eleventyConfig.watchIgnores.add("src/assets/**/*");
 
   // server config (watch generated assets in _site folder)
   eleventyConfig.setServerOptions({
